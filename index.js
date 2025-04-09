@@ -5,7 +5,7 @@ async function getMovieData() {
     const loader = document.getElementById("loader");
     const result = document.getElementById("movieResults");
 
-    if (!searchInput) return alert("please enter a movie title");
+    if (!searchInput) return alert("please enter a movie title...");
 
     loader.style.display = "block"
     result.innerHTML = ""
