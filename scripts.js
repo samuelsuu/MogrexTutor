@@ -287,33 +287,70 @@
 // }
 
 
-let day = prompt("what day is it today");
+// let day = prompt("what day is it today");
 
-switch (day) {
-    case "1":
-        alert("monday");
-        break;
-    case "2":
-        alert("tuesday");
-        break;
-    case "3":
-        alert("wednesday");
-        break;
-    case "4":
-        alert("thursday");
-        break;
-    case "5":
-        alert("friday");
-        break;
-    case "6":
-        alert("saturday");
-        break;
-    case "7":
-        alert("sunday");
-        break;
-    default:
-        alert("Invalid day number");
-        break;
-}
+// switch (day) {
+//     case "1":
+//         alert("monday");
+//         break;
+//     case "2":
+//         alert("tuesday");
+//         break;
+//     case "3":
+//         alert("wednesday");
+//         break;
+//     case "4":
+//         alert("thursday");
+//         break;
+//     case "5":
+//         alert("friday");
+//         break;
+//     case "6":
+//         alert("saturday");
+//         break;
+//     case "7":
+//         alert("sunday");
+//         break;
+//     default:
+//         alert("Invalid day number");
+//         break;
+// }
+
+
+// while(condition){
+//     // code to be executed
+// }
+
+
+// let i = 0;
+// while (i < 5) {
+//     alert(i);
+//     i--;
+// }
+
+// do{
+// //     // code to be executed
+// }while (condition);
+
+
+// let i = 0;
+// do {
+//     alert(i);
+//     i++;
+// }
+// while (i < 5);
+
+// for (begin; condition; increment/decrement){
+//     // code to be executed
+// }
+
+// for (let i = 0; i < 5; i++){
+//     alert(i);
+// }
+
+
+// change the background color of the page to blue
+
+// document.body.style.backgroundColor = "red";
 
 

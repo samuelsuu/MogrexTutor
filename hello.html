@@ -6,7 +6,25 @@
     <title>Document</title>
   </head>
   <body>
-    <p>Before the script...</p>
+    
+    <h1 id="greeting">Hello, world</h1>
+    <h3 id="name">sam</h3>
+    <h2 class="boy">
+      good
+    </h2>
+    <button onclick="change()">Click Me</button>
+
+    <script>
+      function change() {
+        const headings = document.getElementsByClassName("boy");
+
+        if (headings.length > 0) {
+          headings[0].innerHTML = "you clicked me!";
+        }
+      
+      }
+    </script>
+
 
     <script src="./scripts.js"></script>
 
